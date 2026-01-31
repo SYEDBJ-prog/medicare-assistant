@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "ResetExpress",
+    "slug": "reset-express",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.anonymous.restexpress"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "ndkVersion": "26.1.10909125",
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0" 
+          }
+        }
+      ]
+    ]
+  }
+}
