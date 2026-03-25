@@ -1,11 +1,12 @@
 {
   "name": "rest-express",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "server/index.ts",
   "type": "module",
   "scripts": {
-    "start": "node --loader tsx server/index.ts",
+    "start": "tsx server/index.ts",
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
+    "build": "tsc",
     "android": "expo run:android",
     "ios": "expo run:ios"
   },
