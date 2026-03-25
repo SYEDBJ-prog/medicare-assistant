@@ -11,8 +11,7 @@ app.use(express.json());
 
 // 🛠️ MONGODB CONNECTION
 // Yaad rakhein: Apna asli Connection String yahan dalna hai
-const MONGO_URI = "mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.mongodb.net/medicare?retryWrites=true&w=majority";
-
+const MONGO_URI = "mongodb+srv://SyedZubair:SyEd21212020@cluster0.mongodb.net/medicare?retryWrites=true&w=majority";
 mongoose.connect(MONGO_URI)
   .then(() => console.log("✅ GLOBAL DATABASE: Connected Successfully!"))
   .catch((err) => console.log("❌ DATABASE ERROR:", err));
